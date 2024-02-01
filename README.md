@@ -2,6 +2,8 @@
 
 #### This is a in browser extension to auto bump your flipd.gg threads.
 
+This works by injected js into flipd site to automate the sending of a auto bump, it runs every hour but you can modify it to your liking.
+
 ### Installation Details
 
 1) Edit the `manifest.json` file to include the thread(s) link you want bumped, reason for this is to not mess up your flow when browsing the site.
