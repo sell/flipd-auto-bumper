@@ -1,13 +1,13 @@
 const textarea = document.getElementById('message');
 const submit = document.getElementById('quick_reply_submit');
-const texts = ['Bumping this cop it']
+const texts = ['Bumping this cop it', 'Bumping this'];
 
 const lastRan = () => localStorage.getItem("last-ran");
 
 const minToMs = (min) => min * 60 * 1000;
 
 function autobump() {
-    textarea.innerText = `${texts[0]} [${Math.floor(100000 + Math.random() * 900000)}]`
+    textarea.innerText = `${texts[Math.floor(Math.random() * texts.length)]} [${Math.floor(100000 + Math.random() * 900000)}]`
     submit.click();
     localStorage.setItem("last-ran", Date.now());
     console.log("Ran Auto Bumper");
