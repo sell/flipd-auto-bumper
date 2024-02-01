@@ -1,0 +1,23 @@
+{
+  "name": "Sell",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Injecting stuff",
+  "homepage_url": "http://cloutedd.com",
+  "content_scripts": [
+    {
+      "matches": ["https://flipd.gg/Thread-malfunction*"],
+      "js": ["content-script.js"],
+      "all_frames": true
+    }
+  ],
+  "browser_action": {
+    "default_title": "Inject!"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "flipd-auto-bumper.js"
+  ]
+}
