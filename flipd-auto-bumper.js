@@ -54,4 +54,4 @@ if (moreThanOneHourAgo(lastRan())) {
 
 setInterval(() => {
     console.log(`Auto Bumper is running, next bump is in ${Math.floor(lastRanCalculate() / 1000 / 60)} minutes`);
-}, 300000);
+}, minToMs(60));
