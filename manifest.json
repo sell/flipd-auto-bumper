@@ -1,8 +1,8 @@
 {
-  "name": "Sell",
+  "name": "AutoBumper",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Injecting stuff",
+  "description": "Bump threads for flipd.gg",
   "homepage_url": "http://cloutedd.com",
   "content_scripts": [
     {
