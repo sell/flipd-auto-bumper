@@ -12,6 +12,8 @@
 
 4) Open and leave the tab open for it to auto bump
 
-#### I made this in minutes, so no need to critcize.
+#### I made this in minutes for anyone looking for a simple option.
 
-### If you would like to get the cli version, contact me for it.
+You can run have this running on a vps or your own pc.
+
+### If you would like to get the more sophisticated cli version, contact me.
