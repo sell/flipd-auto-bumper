@@ -8,11 +8,13 @@ This works by injected js into flipd site to automate the sending of a auto bump
 
 1) Edit the `manifest.json` file to include the thread(s) link you want bumped, reason for this is to not mess up your flow when browsing the site.
 
-2) go to brave://extensions/ or chrome://extensions/
+2) Make sure you add a `*` after the url, for example `"https://flipd.gg/thread-hello-world*"`
 
-3) Load the unpacked folder 
+3) go to brave://extensions/ or chrome://extensions/
 
-4) Open and leave the tab open for it to auto bump
+4) Load the unpacked folder 
+
+5) Open and leave the tab open for it to auto bump
 
 #### I made this in minutes for anyone looking for a simple option.
 
