@@ -14,7 +14,7 @@ This works by injected js into flipd site to automate the sending of a auto bump
 
 4) Load the unpacked folder 
 
-5) Open and leave the tab open for it to auto bump
+5) Open a tab on the thread and leave the tab open for it to auto bump
 
 #### I made this in minutes for anyone looking for a simple option.
 
