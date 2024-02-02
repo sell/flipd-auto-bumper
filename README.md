@@ -10,11 +10,13 @@ This works by injected js into flipd site to automate the sending of a auto bump
 
 2) Make sure you add a `*` after the url, for example `"https://flipd.gg/thread-hello-world*"`
 
-3) go to brave://extensions/ or chrome://extensions/
+3) Save the changes
 
-4) Load the unpacked folder 
+4) go to `brave://extensions/` or `chrome://extensions/`
 
-5) Open a tab on the thread and leave the tab open for it to auto bump
+5) Load the unpacked folder 
+
+6) Open a tab on the thread and leave the tab open for it to auto bump
 
 #### I made this in minutes for anyone looking for a simple option.
 
